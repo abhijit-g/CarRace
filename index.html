@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="race">
+<head>
+    <link rel="stylesheet" type="text/css" href="App/style/style.css">
+    <title>Car Race</title>
+</head>
+<body ng-controller="appController" ng-keydown="keydown($event)" ng-keyup="keyup($event)" style="background-color:darkgrey; text-align:center;">
+<div data-road/>
+<script src="App/lib/angular.min.js"></script>
+<script src="App/lib/lodash.min.js"></script>
+
+<script src="App/App.js"></script>
+
+<script src="App/js/constants/CarDirection.js"></script>
+<script src="App/js/service/RaceEngineService.js"></script>
+<script src="App/js/service/RaceService.js"></script>
+<script src="App/js/service/RoadService.js"></script>
+<script src="App/js/service/CarService.js"></script>
+<script src="App/js/service/BushService.js"></script>
+<script src="App/js/service/TrafficService.js"></script>
+</body>
+</html>

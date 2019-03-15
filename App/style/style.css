@@ -1,0 +1,59 @@
+/**
+ *
+ * @license MIT License Copyright (c) 2017 Abhijit Gurav
+ * @author  Abhijit Gurav, https://github.com/abhijit-g/
+ *
+ */
+.scoreboard{
+    float: right;
+    border: 1px solid;
+    width: 300px;
+    height: 400px;
+    margin-left: -330px;
+    margin-right: 30px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+.lives label, .level label, .score label, .instr label{
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 23px;
+    padding-left: 10px;
+    font-family: Georgia,"Times New Roman",serif;
+    font-weight: bold;
+}
+
+.scoreboard img{
+    width: 24px;
+    height: 34px;
+    padding-right: 5px;
+}
+
+.lives{
+    padding-top: 10px;
+    display: flex;
+}
+
+.level, .score{
+    padding-bottom: 23px;
+}
+
+.level label, .score label{
+  padding-right: 0;
+}
+
+.instr div{
+    padding-top: 10px;
+}
+
+.instrLabel{
+    font-weight: 200 !important;
+}
+
+.msg{
+  color: red;
+  color: red;
+  white-space: pre;
+}
